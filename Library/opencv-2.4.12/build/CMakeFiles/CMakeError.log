@@ -1,0 +1,371 @@
+Determining if the system is big endian passed with the following output:
+Change Dir: D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_bbe9f.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft(R) 生成引擎版本 4.6.1055.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/11 16:55:01。
+节点 1 上的项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_bbe9f.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_bbe9f.dir\Debug\”。
+  正在创建目录“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_bbe9f.dir\Debug\cmTC_bbe9f.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_bbe9f.dir\Debug\\" /Fd"cmTC_bbe9f.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue TestEndianess.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_bbe9f.dir\Debug\\" /Fd"cmTC_bbe9f.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue TestEndianess.c  /bigobj 
+  
+  TestEndianess.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_bbe9f.dir\Debug\cmTC_bbe9f.exe.embed.manifest.res" cmTC_bbe9f.dir\Debug\cmTC_bbe9f_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_bbe9f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_bbe9f.dir\Debug\cmTC_bbe9f.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_bbe9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_bbe9f.lib" /MACHINE:X86 cmTC_bbe9f.dir\Debug\cmTC_bbe9f.exe.embed.manifest.res
+  cmTC_bbe9f.dir\Debug\TestEndianess.obj  /machine:X86 
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"cmTC_bbe9f.dir\Debug\cmTC_bbe9f.exe.embed.manifest" /manifest cmTC_bbe9f.dir\Debug\cmTC_bbe9f.exe.intermediate.manifest
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_bbe9f.dir\Debug\cmTC_bbe9f.exe.embed.manifest.res" cmTC_bbe9f.dir\Debug\cmTC_bbe9f_manifest.rc 
+LinkEmbedManifest:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_bbe9f.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_bbe9f.dir\Debug\cmTC_bbe9f.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_bbe9f.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_bbe9f.lib" /MACHINE:X86 cmTC_bbe9f.dir\Debug\cmTC_bbe9f.exe.embed.manifest.res
+  cmTC_bbe9f.dir\Debug\TestEndianess.obj  /machine:X86 
+  cmTC_bbe9f.vcxproj -> D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_bbe9f.exe
+FinalizeBuildStatus:
+  正在删除文件“cmTC_bbe9f.dir\Debug\cmTC_bbe9f.unsuccessfulbuild”。
+  正在对“cmTC_bbe9f.dir\Debug\cmTC_bbe9f.lastbuildstate”执行 Touch 任务。
+已完成生成项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_bbe9f.vcxproj”(默认目标)的操作。
+
+已成功生成。
+    0 个警告
+    0 个错误
+
+已用时间 00:00:00.51
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function fseeko exists failed with the following output:
+Change Dir: D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_17450.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft(R) 生成引擎版本 4.6.1055.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/11 16:55:01。
+节点 1 上的项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_17450.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_17450.dir\Debug\”。
+  正在创建目录“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_17450.dir\Debug\cmTC_17450.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_17450.dir\Debug\\" /Fd"cmTC_17450.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=fseeko /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_17450.dir\Debug\\" /Fd"cmTC_17450.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"  /bigobj 
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_17450.dir\Debug\cmTC_17450.exe.embed.manifest.res" cmTC_17450.dir\Debug\cmTC_17450_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_17450.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_17450.dir\Debug\cmTC_17450.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_17450.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_17450.lib" /MACHINE:X86 cmTC_17450.dir\Debug\cmTC_17450.exe.embed.manifest.res
+  cmTC_17450.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_17450.vcxproj]
+D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_17450.exe : fatal error LNK1120: 1 unresolved externals [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_17450.vcxproj]
+已完成生成项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_17450.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_17450.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_17450.vcxproj]
+  D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_17450.exe : fatal error LNK1120: 1 unresolved externals [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_17450.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.25
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_7f142.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft(R) 生成引擎版本 4.6.1055.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/11 16:55:02。
+节点 1 上的项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_7f142.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_7f142.dir\Debug\”。
+  正在创建目录“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_7f142.dir\Debug\cmTC_7f142.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_7f142.dir\Debug\\" /Fd"cmTC_7f142.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_7f142.dir\Debug\\" /Fd"cmTC_7f142.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_7f142.vcxproj]
+已完成生成项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_7f142.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_7f142.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_7f142.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.14
+
+
+Determining size of off64_t failed with the following output:
+Change Dir: D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_4567e.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft(R) 生成引擎版本 4.6.1055.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/11 16:55:02。
+节点 1 上的项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_4567e.dir\Debug\”。
+  正在创建目录“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_4567e.dir\Debug\cmTC_4567e.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_4567e.dir\Debug\\" /Fd"cmTC_4567e.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\OFF64_T.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_4567e.dir\Debug\\" /Fd"cmTC_4567e.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue ..\CheckTypeSize\OFF64_T.c  /bigobj 
+  
+  OFF64_T.c
+..\CheckTypeSize\OFF64_T.c(19): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+..\CheckTypeSize\OFF64_T.c(20): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+..\CheckTypeSize\OFF64_T.c(21): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+..\CheckTypeSize\OFF64_T.c(22): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+..\CheckTypeSize\OFF64_T.c(23): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+已完成生成项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  ..\CheckTypeSize\OFF64_T.c(19): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(20): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(21): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(22): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+  ..\CheckTypeSize\OFF64_T.c(23): error C2065: 'off64_t' : undeclared identifier [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_4567e.vcxproj]
+
+    0 个警告
+    5 个错误
+
+已用时间 00:00:00.14
+
+D:/OpenCV2/opencv/build/CMakeFiles/CheckTypeSize/OFF64_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(off64_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the function jbg_newlen exists failed with the following output:
+Change Dir: D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_ba7e3.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft(R) 生成引擎版本 4.6.1055.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/11 16:55:05。
+节点 1 上的项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_ba7e3.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_ba7e3.dir\Debug\”。
+  正在创建目录“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_ba7e3.dir\Debug\cmTC_ba7e3.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=jbg_newlen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_ba7e3.dir\Debug\\" /Fd"cmTC_ba7e3.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=jbg_newlen /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_ba7e3.dir\Debug\\" /Fd"cmTC_ba7e3.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"  /bigobj 
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_ba7e3.dir\Debug\cmTC_ba7e3.exe.embed.manifest.res" cmTC_ba7e3.dir\Debug\cmTC_ba7e3_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_ba7e3.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_ba7e3.dir\Debug\cmTC_ba7e3.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_ba7e3.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_ba7e3.lib" /MACHINE:X86 cmTC_ba7e3.dir\Debug\cmTC_ba7e3.exe.embed.manifest.res
+  cmTC_ba7e3.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _jbg_newlen referenced in function _main [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_ba7e3.vcxproj]
+D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_ba7e3.exe : fatal error LNK1120: 1 unresolved externals [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_ba7e3.vcxproj]
+已完成生成项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_ba7e3.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_ba7e3.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _jbg_newlen referenced in function _main [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_ba7e3.vcxproj]
+  D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_ba7e3.exe : fatal error LNK1120: 1 unresolved externals [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_ba7e3.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.25
+
+
+Determining if the function mmap exists failed with the following output:
+Change Dir: D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_91880.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft(R) 生成引擎版本 4.6.1055.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/11 16:55:05。
+节点 1 上的项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_91880.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_91880.dir\Debug\”。
+  正在创建目录“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_91880.dir\Debug\cmTC_91880.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=mmap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_91880.dir\Debug\\" /Fd"cmTC_91880.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D CHECK_FUNCTION_EXISTS=mmap /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_91880.dir\Debug\\" /Fd"cmTC_91880.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue "..\..\..\..\..\cmake-3.5.1-win32-x86\share\cmake-3.5\Modules\CheckFunctionExists.c"  /bigobj 
+  
+  CheckFunctionExists.c
+ManifestResourceCompile:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"cmTC_91880.dir\Debug\cmTC_91880.exe.embed.manifest.res" cmTC_91880.dir\Debug\cmTC_91880_manifest.rc 
+Link:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:QUEUE /OUT:"D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_91880.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"cmTC_91880.dir\Debug\cmTC_91880.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_91880.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp/Debug/cmTC_91880.lib" /MACHINE:X86 cmTC_91880.dir\Debug\cmTC_91880.exe.embed.manifest.res
+  cmTC_91880.dir\Debug\CheckFunctionExists.obj  /machine:X86 
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mmap referenced in function _main [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_91880.vcxproj]
+D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_91880.exe : fatal error LNK1120: 1 unresolved externals [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_91880.vcxproj]
+已完成生成项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_91880.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_91880.vcxproj”(默认目标) (1) ->
+(Link 目标) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _mmap referenced in function _main [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_91880.vcxproj]
+  D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\cmTC_91880.exe : fatal error LNK1120: 1 unresolved externals [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_91880.vcxproj]
+
+    0 个警告
+    2 个错误
+
+已用时间 00:00:00.24
+
+
+Determining if the include file unistd.h exists failed with the following output:
+Change Dir: D:/OpenCV2/opencv/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Windows/Microsoft.NET/Framework/v4.0.30319/MSBuild.exe" "cmTC_34999.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=10.0"
+Microsoft(R) 生成引擎版本 4.6.1055.0
+[Microsoft .NET Framework 版本 4.0.30319.42000]
+版权所有 (C) Microsoft Corporation。保留所有权利。
+
+生成启动时间为 2016/4/11 16:55:07。
+节点 1 上的项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_34999.vcxproj”(默认目标)。
+PrepareForBuild:
+  正在创建目录“cmTC_34999.dir\Debug\”。
+  正在创建目录“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\Debug\”。
+InitializeBuildStatus:
+  正在创建“cmTC_34999.dir\Debug\cmTC_34999.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+ClCompile:
+  C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_34999.dir\Debug\\" /Fd"cmTC_34999.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+  cl /c /Zi /W3 /WX- /Od /Ob0 /Oi /Oy- /D WIN32 /D _WINDOWS /D _CRT_SECURE_NO_DEPRECATE /D _CRT_NONSTDC_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /Gy /arch:SSE2 /fp:fast /Zc:wchar_t /Zc:forScope /Fo"cmTC_34999.dir\Debug\\" /Fd"cmTC_34999.dir\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:queue CheckIncludeFile.c  /bigobj 
+  
+  CheckIncludeFile.c
+CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_34999.vcxproj]
+已完成生成项目“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_34999.vcxproj”(默认目标)的操作 - 失败。
+
+生成失败。
+
+“D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_34999.vcxproj”(默认目标) (1) ->
+(ClCompile 目标) -> 
+  CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\OpenCV2\opencv\build\CMakeFiles\CMakeTmp\cmTC_34999.vcxproj]
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:00.14
+
+

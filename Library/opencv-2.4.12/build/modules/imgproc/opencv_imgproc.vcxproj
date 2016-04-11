@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{927571EE-EDDE-3D89-A951-24B3171F890B}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>opencv_imgproc</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCV2\opencv\build\bin\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_imgproc.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">opencv_imgproc2411d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCV2\opencv\build\bin\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_imgproc.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">opencv_imgproc2411</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.dll</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\OpenCV2\opencv\sources\modules\imgproc\perf;D:\OpenCV2\opencv\sources\modules\video\include;D:\OpenCV2\opencv\sources\modules\features2d\include;D:\OpenCV2\opencv\sources\modules\highgui\include;D:\OpenCV2\opencv\sources\modules\imgproc\include;D:\OpenCV2\opencv\sources\modules\flann\include;D:\OpenCV2\opencv\sources\modules\core\include;D:\OpenCV2\opencv\sources\modules\ts\include;D:\OpenCV2\opencv\build\modules\imgproc;D:\OpenCV2\opencv\sources\modules\imgproc\src;D:\OpenCV2\opencv\sources\modules\imgproc\test;D:\OpenCV2\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForcedIncludeFiles>D:/OpenCV2/opencv/sources/modules/imgproc/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>D:/OpenCV2/opencv/sources/modules/imgproc/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Debug";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_DEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Debug\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OpenCV2\opencv\sources\modules\imgproc\perf;D:\OpenCV2\opencv\sources\modules\video\include;D:\OpenCV2\opencv\sources\modules\features2d\include;D:\OpenCV2\opencv\sources\modules\highgui\include;D:\OpenCV2\opencv\sources\modules\imgproc\include;D:\OpenCV2\opencv\sources\modules\flann\include;D:\OpenCV2\opencv\sources\modules\core\include;D:\OpenCV2\opencv\sources\modules\ts\include;D:\OpenCV2\opencv\build\modules\imgproc;D:\OpenCV2\opencv\sources\modules\imgproc\src;D:\OpenCV2\opencv\sources\modules\imgproc\test;D:\OpenCV2\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OpenCV2\opencv\sources\modules\imgproc\perf;D:\OpenCV2\opencv\sources\modules\video\include;D:\OpenCV2\opencv\sources\modules\features2d\include;D:\OpenCV2\opencv\sources\modules\highgui\include;D:\OpenCV2\opencv\sources\modules\imgproc\include;D:\OpenCV2\opencv\sources\modules\flann\include;D:\OpenCV2\opencv\sources\modules\core\include;D:\OpenCV2\opencv\sources\modules\ts\include;D:\OpenCV2\opencv\build\modules\imgproc;D:\OpenCV2\opencv\sources\modules\imgproc\src;D:\OpenCV2\opencv\sources\modules\imgproc\test;D:\OpenCV2\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Debug\opencv_core2411d.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/OpenCV2/opencv/build/lib/Debug/opencv_imgproc2411d.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OpenCV2/opencv/build/bin/Debug/opencv_imgproc2411d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalOptions> /bigobj %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalIncludeDirectories>D:\OpenCV2\opencv\sources\modules\imgproc\perf;D:\OpenCV2\opencv\sources\modules\video\include;D:\OpenCV2\opencv\sources\modules\features2d\include;D:\OpenCV2\opencv\sources\modules\highgui\include;D:\OpenCV2\opencv\sources\modules\imgproc\include;D:\OpenCV2\opencv\sources\modules\flann\include;D:\OpenCV2\opencv\sources\modules\core\include;D:\OpenCV2\opencv\sources\modules\ts\include;D:\OpenCV2\opencv\build\modules\imgproc;D:\OpenCV2\opencv\sources\modules\imgproc\src;D:\OpenCV2\opencv\sources\modules\imgproc\test;D:\OpenCV2\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions2</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Async</ExceptionHandling>
+      <FloatingPointModel>Fast</FloatingPointModel>
+      <ForcedIncludeFiles>D:/OpenCV2/opencv/sources/modules/imgproc/src/precomp.hpp</ForcedIncludeFiles>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>D:/OpenCV2/opencv/sources/modules/imgproc/src/precomp.hpp</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR="Release";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;NDEBUG;_VARIADIC_MAX=10;CMAKE_INTDIR=\"Release\";CVAPI_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\OpenCV2\opencv\sources\modules\imgproc\perf;D:\OpenCV2\opencv\sources\modules\video\include;D:\OpenCV2\opencv\sources\modules\features2d\include;D:\OpenCV2\opencv\sources\modules\highgui\include;D:\OpenCV2\opencv\sources\modules\imgproc\include;D:\OpenCV2\opencv\sources\modules\flann\include;D:\OpenCV2\opencv\sources\modules\core\include;D:\OpenCV2\opencv\sources\modules\ts\include;D:\OpenCV2\opencv\build\modules\imgproc;D:\OpenCV2\opencv\sources\modules\imgproc\src;D:\OpenCV2\opencv\sources\modules\imgproc\test;D:\OpenCV2\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\OpenCV2\opencv\sources\modules\imgproc\perf;D:\OpenCV2\opencv\sources\modules\video\include;D:\OpenCV2\opencv\sources\modules\features2d\include;D:\OpenCV2\opencv\sources\modules\highgui\include;D:\OpenCV2\opencv\sources\modules\imgproc\include;D:\OpenCV2\opencv\sources\modules\flann\include;D:\OpenCV2\opencv\sources\modules\core\include;D:\OpenCV2\opencv\sources\modules\ts\include;D:\OpenCV2\opencv\build\modules\imgproc;D:\OpenCV2\opencv\sources\modules\imgproc\src;D:\OpenCV2\opencv\sources\modules\imgproc\test;D:\OpenCV2\opencv\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;..\..\lib\Release\opencv_core2411.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>libc;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/OpenCV2/opencv/build/lib/Release/opencv_imgproc2411.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/OpenCV2/opencv/build/bin/Release/opencv_imgproc2411.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\..\sources\modules\imgproc\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/OpenCV2/opencv/sources/modules/imgproc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\cmake-3.5.1-win32-x86\bin\cmake.exe -HD:/OpenCV2/opencv/sources -BD:/OpenCV2/opencv/build --check-stamp-file D:\OpenCV2\opencv\build\modules\imgproc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCV2/opencv/sources/modules/imgproc/CMakeLists.txt;D:\OpenCV2\opencv\sources\modules\imgproc\CMakeLists.txt;D:\OpenCV2\opencv\sources\modules\imgproc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\OpenCV2\opencv\build\modules\imgproc\CMakeFiles\generate.stamp</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/OpenCV2/opencv/sources/modules/imgproc/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\cmake-3.5.1-win32-x86\bin\cmake.exe -HD:/OpenCV2/opencv/sources -BD:/OpenCV2/opencv/build --check-stamp-file D:\OpenCV2\opencv\build\modules\imgproc\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCV2/opencv/sources/modules/imgproc/CMakeLists.txt;D:\OpenCV2\opencv\sources\modules\imgproc\CMakeLists.txt;D:\OpenCV2\opencv\sources\modules\imgproc\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\OpenCV2\opencv\build\modules\imgproc\CMakeFiles\generate.stamp</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\sources\modules\imgproc\include\opencv2\imgproc\imgproc.hpp" />
+    <ClInclude Include="..\..\..\sources\modules\imgproc\include\opencv2\imgproc\imgproc_c.h" />
+    <ClInclude Include="..\..\..\sources\modules\imgproc\include\opencv2\imgproc\types_c.h" />
+    <ClInclude Include="..\..\..\sources\modules\imgproc\src\avx\imgwarp_avx.hpp" />
+    <ClInclude Include="..\..\..\sources\modules\imgproc\src\avx2\imgwarp_avx2.hpp" />
+    <ClInclude Include="..\..\..\sources\modules\imgproc\src\gcgraph.hpp" />
+    <ClInclude Include="..\..\..\sources\modules\imgproc\src\precomp.hpp" />
+    <ClInclude Include="..\..\..\sources\modules\imgproc\src\_geom.h" />
+    <ClInclude Include="..\..\..\sources\modules\imgproc\src\_list.h" />
+    <ClInclude Include="..\..\cvconfig.h" />
+    <ClInclude Include="..\..\opencv2\opencv_modules.hpp" />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\accum.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\approx.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\avx\imgwarp_avx.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\avx2\imgwarp_avx2.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\canny.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\clahe.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\color.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\contours.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\convhull.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\corner.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\cornersubpix.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\deriv.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\distransform.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\emd.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\featureselect.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\filter.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\floodfill.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\gabor.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\generalized_hough.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\geometry.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\grabcut.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\histogram.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\hough.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\imgwarp.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\linefit.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\matchcontours.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\moments.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\morph.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\phasecorr.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\pyramids.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\rotcalipers.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\samplers.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\segmentation.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\shapedescr.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\smooth.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\subdivision2d.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\sumpixels.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\tables.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\templmatch.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\thresh.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\undistort.cpp"  />
+    <ClCompile Include="..\..\..\sources\modules\imgproc\src\utils.cpp"  />
+    <ClCompile Include="opencv_imgproc_pch.cpp" >
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/OpenCV2/opencv/sources/modules/imgproc/src/precomp.hpp</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/OpenCV2/opencv/sources/modules/imgproc/src/precomp.hpp</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/OpenCV2/opencv/build/ZERO_CHECK.vcxproj">
+      <Project>CFBB836E-9FD8-3E32-9E1B-1D64F3F5BD27</Project>
+    </ProjectReference>
+    <ProjectReference Include="D:/OpenCV2/opencv/build/modules/core/opencv_core.vcxproj">
+      <Project>E73D2659-087F-309A-9DF1-71CFF6D0EE5F</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
